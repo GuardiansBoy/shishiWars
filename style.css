@@ -1,0 +1,713 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+  /* overflow-x: hidden; */
+}
+
+.container {
+    width: 100%;
+  }
+
+  .img-container img {
+    width: 200px;
+    border-radius: 20px;
+    margin: 15px;
+  }
+  
+  .eggs {
+    padding-bottom: 100px;
+  }
+  
+.main-text {
+  font-family: 'Anton', sans-serif;
+  font-size: 2rem;
+  display: none;
+}
+
+.justify-center {
+  justify-content: center;
+}
+ 
+
+  .mx-auto {
+    margin: 0 auto;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .flex-col {
+    flex-direction: column;
+  }
+
+  /* .flex-row {
+    flex-direction: row;
+  } */
+  
+  nav {
+    padding: 15px;
+    color: white;
+    transition: all 0.5s ease;
+    background-color: #101118;
+    
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #262626;
+  }
+
+  nav img {
+    /* width: 100px; */
+    height: 50px;
+    margin: auto 0;
+  }
+
+  .nav-items a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    text-transform: capitalize;
+    font-family: 'Urbanist', sans-serif;
+
+    font-size: 17px;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 3px;
+  }
+
+  .nav-items {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-items a {
+    text-transform: capitalize;
+  }
+
+  .hamburger-top,
+  .hamburger-middle,
+  .hamburger-bottom {
+      content: '';
+      position: absolute;
+      width: 24px;
+      height: 3px;
+      top: 0;
+      left: 0;
+      background: #000;
+      transform: rotate(0);
+      transition: all 0.5s;
+  }
+
+  .hamburger-bottom {
+    transform: translateY(14px);
+    background: #000;
+  }
+
+  .open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translateX(-6px);
+    background-color: #fff;
+  }
+
+  .egg img{
+    margin: 10px;
+    width: 340px !important;
+    text-align: center;
+  }
+
+
+
+  #hero {
+        /* background-image: linear-gradient(to bottom, rgb(58 61 88 / 52%), rgb(0 0 0)), url(./images/main_web/main_bg.png); */
+        background-image: linear-gradient(to bottom, rgb(253 116 116 / 52%), rgb(219 125 125 / 11%)), url(./images/main_web/mainbgnew.jpg);
+        background-color: #eadad4ab;
+        min-height: 800px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center;
+
+  }
+
+  #howitworks {
+
+
+        /* background-image: linear-gradient(to bottom, rgb(58 61 88 / 52%), rgb(0 0 0)), url(./images/main_web/secondbg2.jpg); */
+        min-height: 600px;
+        /* background-size: cover; */
+        padding-top: 120px;
+        /* background-color: #252032; */
+
+        /* background: linear-gradient(50deg, #080b28 35%, #5f6ad3 98%); */
+        /* background: linear-gradient(50deg, #040728 35%, #161616 98%);
+        background: linear-gradient(50deg, #111114 35%, #282858 98%); */
+  }
+
+  .lore-p {
+    padding: 50px;
+    background-color: #10101842;
+    margin-left: 40px;
+  }
+
+  .whole-section {
+    background-size: cover;
+    padding-top: 120px;
+    background: linear-gradient(50deg, #111114 35%, #282858 98%);
+  }
+
+  #roadmap {
+    background-image: linear-gradient(to bottom, rgb(58 61 88 / 52%), rgb(0 0 0)), url(./images/main_web/thirdbg.jpg);
+
+
+    min-height: 800px;
+    background-size: cover;
+  }
+
+  .hero-small {
+    color: gray;
+    font-size: 18px;
+
+  }
+
+  .genki-text {
+    color: white;
+    -webkit-text-stroke: 1px #ddd710de;
+  }
+
+  .snd-block {
+    font-size: larger;
+    text-align: end;
+  }
+
+  #hero .main-text {
+    color: #ffffff;
+    font-size: 5rem;
+    /* -webkit-text-stroke: 2px #4e3838de; */
+    /* -webkit-text-stroke: 1px #f94949de; */
+    text-align: center;
+  }
+
+  #intro {
+    background-color: #171a28;
+    padding: 20px;
+    color: white;
+    padding-top: 80px;
+    padding-bottom: 120px;
+  }
+
+  .intro-text {
+    /* margin-top: 80px; */
+  }
+  
+  h3 {
+    font-size: 3rem;
+    font-family: 'Urbanist', sans-serif;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #c9c9c9;
+    margin: 15px 0;
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 1.35px;
+  }
+
+  h5 {
+    font-size: 1.5rem;
+    font-family: 'Urbanist', sans-serif;
+  }
+
+  .intro-images {
+    display: flex;
+    flex-direction: row;
+    min-width: 400px;
+    text-align: center;
+
+  }
+
+  .intro-images img {
+    margin: 5px;
+    border-radius: 10px;
+    width: 210px;
+  }
+
+  .intro-images video {
+    margin: 5px;
+    border-radius: 10px;
+    width: 210px;
+  }
+
+  .collections-text {
+    margin-top: 50px;
+  }
+
+  .policy-id {
+    text-align: center;
+    margin-right: 20px;
+  }
+  .policy-id img {
+    height: 70px;
+    margin-bottom: 30px;
+  }
+  .collections-text p {
+    font-size: 1.1rem;
+    color: gray;
+    margin: 15px 0;
+    font-family: 'Urbanist', sans-serif;
+        
+  }
+
+  .collections-text button {
+    background-color: transparent;
+    font-size: 25px;
+    font-family: 'Urbanist', sans-serif;
+    /* margin: 0 5px; */
+    color: white;
+    border: none;
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  .selected {
+    background-color: #343f50 !important;
+    border-radius: 50px;
+
+  }
+
+  .secondary-market {
+    margin-top: 50px;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+
+  #col-slideshow {
+    background-color: #0D0D11;
+    padding: 100px 0;
+    color: white;
+    font-family: 'Urbanist', sans-serif; 
+  }
+
+  #col-slideshow h1 {
+    font-size: 2rem;
+  }
+
+  #col-slideshow a {
+    text-decoration: none;
+  }
+
+  .samp-slides {
+    margin-top: 50px;
+  }
+
+  .outer-box {
+    background-color: #101018;
+    border-radius: 20px;
+    /* min-height: 250px; */
+    padding: 30px;
+    margin: 5px 15px; 
+    width: 300px;
+    box-shadow:rgb(114 18 241 / 40%) 0px 5px, rgb(85 46 240 / 30%) 0px 10px, rgb(58 46 240 / 20%) 0px 15px, rgb(147 46 240 / 10%) 0px 20px, rgb(83 71 187 / 5%) 0px 25px;
+  }
+
+  .outer-box h5 {
+    margin-top: 10px;
+    font-size: 1.2rem;
+  }
+
+  // If removed width here, flex will evenly make everything for the outer box
+  // depending on how many ck collection there is
+  .kong-img {
+    /* width: 375px; */
+  }
+
+  .kong-img img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  #intro-genkivice {
+    
+    background-color: #111114;
+    padding: 100px 0;
+    color: white;
+    /* font-family: 'Urbanist', sans-serif;  */
+  }
+
+  #intro-genkivice h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    FONT-WEIGHT: 100;
+  }
+
+  #intro-genkivice p {
+    text-align: center;
+  }
+
+  .upcom-txt {
+    font-size: 4rem !important;
+  }
+
+  #howitworks h1, #roadmap h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    FONT-WEIGHT: 100;
+    color: white;
+  }
+
+  #howitworks h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    FONT-WEIGHT: 100;
+    color: white;
+    margin-top: 40px;
+  }
+
+  #howitworks p, #roadmap p {
+    color: white;
+    font-size: 1.2rem;
+    margin: 10px;
+  }
+
+  .space-evenly {
+    justify-content: space-evenly;
+  }
+  .attrb {
+    margin-top: 40px;
+  }
+
+  .attrb img{
+    width: 150px;
+    margin: 10px;
+  }
+
+  .team-details {
+    text-align: center;
+  }
+
+  .cert {
+    margin-top: 70px !important;
+    width: 700px !important;
+  }
+
+  .inner-box {
+    flex-direction: column;
+    max-width: 400px;
+  }
+
+  #ck-team {
+    background-color: #171a28;
+    padding: 100px 0;
+    color: white;
+    font-family: 'Urbanist', sans-serif; 
+  }
+
+  #ck-team h1 {
+    font-size: 3.2rem;
+    text-align: center;
+    letter-spacing: 1.5px;
+  }
+
+  .team-details {
+    margin-top: 40px;
+  }
+
+  .image-container {
+  }
+
+  .team-details img {
+    width: 200px;
+    border-radius: 20px;
+    margin: 15px;
+  }
+
+  .details-container {
+    margin: 5px;
+    text-align: center;
+  }
+
+  .details-container h5 {
+    font-size: 2rem;
+    font-family: 'Anton', sans-serif;
+    FONT-WEIGHT: 100;
+  }
+
+  .details-container p {
+    font-size: 1.0rem;
+    padding: 0.8rem;
+  }
+
+  .align-center {
+    align-items: center;
+  }
+
+  #roadmap {
+    background-color: #171a28;
+    padding: 100px 0;
+    color: white;
+    font-family: 'Urbanist', sans-serif; 
+  }
+
+  #roadmap h1 {
+    font-size: 2.2rem;
+  }
+
+  .rdmp-img-container img {
+    width: 100%;
+    border-radius: 40px;
+    margin-top: 40px;
+  }
+
+  #merch {
+    background-color: #171a28;
+    padding: 100px 0;
+    color: white;
+    font-family: 'Urbanist', sans-serif; 
+
+  }
+
+  #merch h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 44px;
+    padding-bottom: 14px;
+  }
+
+  .merch-box {
+    background-color: #343444;
+    border-radius: 15px;
+    margin: 20px 5px;
+    padding: 30px;
+  }
+
+  .merch-box img {
+    width: 210px;
+    border-radius: 20px;
+  }
+
+  .box-right img{
+    height: 430px;
+    width: 430px;
+  }
+
+  .a-btn {
+    text-decoration: none;
+    color: white;
+    border-bottom: 0.4px solid white;
+    background-color: #171a3a;
+    border-radius: 30px;
+    display: block;
+    line-height: 1.5;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    padding: 15px;
+    border: 1px solid transparent;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  
+  }
+
+  .connect-wallet {
+    background-color:#a31919;
+    border-radius:5px;
+  }
+
+  .right-works img {
+    /* background-image: url(./images/main_web/secondbg2sakura.png);
+    width: 400px; */
+    width: 400px;
+    border-radius: 20px;
+  }
+
+  h4 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 44px;
+  }
+
+  footer {
+    background-color: #0D0D11;
+    padding: 100px 0;
+    color: white;
+    font-family: 'Urbanist', sans-serif; 
+
+  }
+
+  footer p {
+    margin: 15px 0;
+    font-family: 'Urbanist', sans-serif;
+    letter-spacing: 1.35px;
+    color: white;
+    font-size: 1rem;
+    word-break: break-all;
+    line-height: 1.64rem;
+  }
+
+
+  footer a {
+    text-decoration: none;
+    color: white;
+    margin: 8px 0;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 900;
+  }
+
+  footer h5 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: white;
+  }
+
+  .links-footer {
+    max-width: 250px;
+  }
+
+  .links-footer p {
+    color:#dbd9d9;
+    font-size: 0.9rem;
+    word-break: normal;
+  }
+
+  .space-between {
+    justify-content: space-between;
+  }
+
+  #menu-btn {
+    display: none;
+  }
+
+  
+
+  .lore-line {
+    position: relative;
+    /* width: 100px;
+    height: 40px; */
+  }
+  /* .lore-line::before, .lore-line::after {
+    content: '';
+    position: absolute;
+    margin: auto;
+    height: 2px;
+    background: white;
+    width: 45%;
+    top: 45%;
+  }
+
+  .lore-line::after {
+    left: 0;
+    
+  }
+
+  .lore-line::before {
+    display: none;
+  } */
+
+  @media (min-width: 480px) {
+    .container {
+      max-width: 480px;
+    }
+
+    
+
+    
+  }
+
+  @media (max-width: 930px) {
+    .flex-col-min {
+      flex-direction: column;
+    }
+
+    .text-center-onmin {
+      text-align: center;
+    }
+
+    .links-footer {
+      max-width: none;
+    }
+
+    .social-media {
+      margin-top: 50px;
+    }
+
+    .links-footer {
+      margin-top: 50px;
+    }
+
+    #hero .main-text {
+      font-size: 3rem;
+      margin-top: 40px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    #menu-btn {
+      visibility: visible;
+    }
+
+    .nav-items {
+      /* visibility: hidden; */
+      display: none;
+    }
+
+    .box-right img{
+      height: 230px;
+      width: 230px;
+    }
+
+    .cert {
+      width: 400px !important;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .outer-box {
+      width: 150px;
+    }
+
+    .intro-images {
+      min-width: 200px;
+    }
+
+    
+  }
+
+  // MIN WIDTH IS THIS: 768 < x
+  @media (min-width: 768px) {
+    .container {
+      max-width: 768px;
+    }
+    
+    
+  }
+  
+  @media (min-width: 976px) {
+    .container {
+      max-width: 976px;
+    }
+
+    .flex-row {
+        flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 1440px) {
+    .container {
+      max-width: 1440px;
+    }
+  }

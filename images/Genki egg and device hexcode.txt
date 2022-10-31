@@ -1,0 +1,10 @@
+Genki egg site
+
+Background - #21222B
+Connect wallet button - #FF5D5D
+White text - #FFFFFF
+
+Fonts used
+
+Headers - Anton (Google Fonts)
+Sub - Segoe UI Semibold

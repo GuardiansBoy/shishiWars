@@ -1,0 +1,16 @@
+Genki wars main web
+
+Background - #1C1D27
+Nav bar - #2E3146
+Connect wallet button - #FF5D5D
+Gray text on dark background - #979797
+All white - #FFFFFF
+Golden genkivice text - #FFEC3F
+Corrupted genkivice text - #DD56FF
+Gray text (Sakura background) - #585858
+Black Footer background - #000000
+
+Fonts used
+
+Headers - Anton (Google Fonts)
+Sub - Roboto
